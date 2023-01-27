@@ -1,5 +1,5 @@
 
-public class Card extends Board
+public class Card extends Square
 	{
 
 	}

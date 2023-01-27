@@ -1,5 +1,5 @@
 
-public class Miscellaneous extends Board
+public class Miscellaneous extends Square
 	{
 
 	}

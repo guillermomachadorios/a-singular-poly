@@ -1,5 +1,5 @@
 
-public abstract class Board
+public abstract class Square
 	{
 		public String name;
 		public int location;
