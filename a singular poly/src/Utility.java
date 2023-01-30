@@ -2,6 +2,13 @@
 public class Utility extends Square
 	{
 		public int numOfUtilities;
+		public Utility(String n, int l, int c, int ut)
+			{
+				name = n;
+				location = l;
+				cost = c;
+				numOfUtilities = ut;
+			}
 		public int utilityRent(int diceRoll) {
 			int rent=0;
 			if(numOfUtilities==1) {

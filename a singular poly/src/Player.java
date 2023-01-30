@@ -4,6 +4,11 @@ public class Player
 		public String name;
 		public int money;
 		public int diceRoll;
+		public Player(String n, int m, int dr) {
+			name = n;
+			money = m;
+			diceRoll = dr;
+		}
 		public String getName()
 			{
 				return name;
@@ -28,7 +33,7 @@ public class Player
 			{
 				this.diceRoll = diceRoll;
 			}
-		public int rollDie() {
+		public static int rollDie() {
 			int x=0;
 			boolean snakeEyes;
 			int rand = (int)(Math.random() * 6) + 1;
@@ -38,6 +43,6 @@ public class Player
 			} else {
 				snakeEyes=false;
 			}
-			return x;
+			return x = rand+rand2;
 		}
 	}
