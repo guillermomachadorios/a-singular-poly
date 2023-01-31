@@ -4,10 +4,12 @@ public class Player
 		public String name;
 		public int money;
 		public int diceRoll;
-		public Player(String n, int m, int dr) {
+		public boolean inJail;
+		public Player(String n, int m, int dr, boolean ij) {
 			name = n;
 			money = m;
 			diceRoll = dr;
+			inJail = ij;
 		}
 		public String getName()
 			{
@@ -32,6 +34,14 @@ public class Player
 		public void setDiceRoll(int diceRoll)
 			{
 				this.diceRoll = diceRoll;
+			}
+		public boolean isInJail()
+			{
+				return inJail;
+			}
+		public void setInJail(boolean inJail)
+			{
+				this.inJail = inJail;
 			}
 		public static int rollDie() {
 			int x=0;

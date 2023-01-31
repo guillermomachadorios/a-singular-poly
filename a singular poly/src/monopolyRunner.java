@@ -4,7 +4,7 @@ public class monopolyRunner
 	{
 		static Scanner userStringInput = new Scanner(System.in);
 		static Scanner userIntInput = new Scanner(System.in);
-		static Player p1 = new Player("", 1500, 0);
+		static Player p1 = new Player("", 1500, 0, false);
 
 		public static void main(String[] args)
 			{

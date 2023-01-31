@@ -1,0 +1,40 @@
+misc, Go, 0, 200
+property, Mediterranean Avenue, 1, 60, Brown, 2, 0, 50, 10, 0, 50, 250
+card, Community Chest, 2, 0, false
+property, Baltic Avenue, 3, 60, Brown, 4, 0, 50, 20, 0, 50, 450
+misc, Income Tax, 4, 200
+railroad, Reading Railroad, 5, 25, 1
+property, Oriental Avenue, 6, 100, Blue, 6, 0, 50, 30, 0, 50, 550
+card, Chance, 7, 0, true
+property, Vermont Avenue, 8, 100, Blue, 6, 0, 50, 30, 0, 50, 550
+property, Conneticut Avenue, 9, 120, Blue, 8, 0, 50, 40, 0, 50, 600
+misc, Jail, 10, 0
+property, St. Charles Place, 11, 140, Pink, 10, 0, 100, 50, 0, 100, 750
+utility, Electric Company, 12, 150, 1
+property, States Avenue, 13, 140, Pink, 10, 0, 100, 50, 0, 100, 750
+property, Virginia Avenue, 14, 180, Pink, 12, 0, 100, 60, 0, 100, 900
+railroad, Pennsylvania Railroad, 15, 25, 1
+property, St. James Place, 16, 180, Orange, 14, 0, 100, 70, 0, 100, 950
+card, Community Chest, 17, 0, false
+property, States Avenue, 18, 180, Orange, 14, 0, 100, 70, 0, 100, 950
+property, Virginia Avenue, 19, 200, Orange, 16, 0, 100, 80, 0, 100, 1000
+misc, Free Parking, 20, 0
+property, Kentucky Avenue, 21, 220, Red, 18, 0, 150, 90, 0, 150, 1050
+card, Community Chest, 22, 0, false
+property, Indiana Avenue, 23, 220, Red, 18, 0, 150, 90, 0, 150, 1050
+property, Illinois Avenue, 24, 240, Red, 20, 0, 150, 100, 0, 150, 1100
+railroad, B & O Railroad, 25, 25, 1
+property, Atlantic Avenue, 26, 260, Yellow, 22, 0, 150, 110, 0, 150, 1150
+utility, Water Works, 27, 150, 1
+property, Ventnor Avenue, 28, 260, Yellow, 22, 0, 150, 110, 0, 150, 1150
+property, Marvin Avenue, 29, 280, Yellow, 24, 0, 150, 120, 0, 150, 1200
+misc, Go to Jail, 30, 0
+property, Pacific Avenue, 31, 300, Green, 26, 0, 200, 130, 0, 200, 1275
+property, North Carolina Avenue, 32, 300, Green, 26, 0, 200, 130, 0, 200, 1275
+card, Community Chest, 33, 0, false
+property, Pennsylvania Avenue, 34, 280, Green, 28, 0, 200, 150, 0, 200, 1400
+railroad, Short Line, 35, 25, 1
+card, Chance, 36, 0, false
+property, Park Place, 37, 350, Dark Blue, 35, 0, 200, 175, 0, 200, 1500
+misc, Luxury Tax, 38, 100
+property, Boardwalk, 39, 400, Dark Blue, 50, 0, 200, 200, 0, 200, 2000
