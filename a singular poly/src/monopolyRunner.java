@@ -8,7 +8,6 @@ public class monopolyRunner
 
 		public static void main(String[] args)
 			{
-				
 				System.out.println("Welcome to Monopoly! What version would you like to play?");
 				System.out.println("(doesnt work rn)");
 				System.out.println("What is your name?");
