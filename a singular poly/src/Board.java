@@ -13,7 +13,7 @@ public class Board
 			System.out.println("(1) Classic Monopoly (2) ???????");
 			int x = userIntInput.nextInt();
 			if(x==1) {
-				boardFile = new Scanner(new File("classicBoard.txt"));
+				boardFile = new Scanner(new File("classicboard.txt"));
 			}
 //			} else if() {
 //				
@@ -32,15 +32,30 @@ public class Board
 					boolean htl = boardFile.nextBoolean();
 					int htp = boardFile.nextInt();
 					int htr = boardFile.nextInt();
-					board[1] = new Property(n, l, c, co, r, noh, hsp, hsr, htl, htp, htr);
+					board.add( new Property(n, l, c, co, r, noh, hsp, hsr, htl, htp, htr));
 				} else if (type.equals("misc")) {
-					
+					String n = boardFile.next();
+					int l = boardFile.nextInt();
+					int c = boardFile.nextInt();
+					board.add( new Miscellaneous(n, l, c));
 				} else if (type.equals("card")) {
-					
+					String n = boardFile.next();
+					int l = boardFile.nextInt();
+					int c = boardFile.nextInt();
+					boolean ic = boardFile.nextBoolean();
+					board.add( new Card(n, l, c, ic));
 				} else if (type.equals("railroad")) {
-					
+					String n = boardFile.next();
+					int l = boardFile.nextInt();
+					int c = boardFile.nextInt();
+					int rr = boardFile.nextInt();
+					board.add( new Railroad(n, l, c, rr));
 				} else if (type.equals("utility")) {
-					
+					String n = boardFile.next();
+					int l = boardFile.nextInt();
+					int c = boardFile.nextInt();
+					int ut = boardFile.nextInt();
+					board.add( new Railroad(n, l, c, ut));
 				}
 			}
 		}

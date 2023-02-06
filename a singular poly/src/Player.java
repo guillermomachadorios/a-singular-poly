@@ -3,11 +3,13 @@ public class Player
 	{
 		public String name;
 		public int money;
+		public int location;
 		public int diceRoll;
 		public boolean inJail;
-		public Player(String n, int m, int dr, boolean ij) {
+		public Player(String n, int m, int l, int dr, boolean ij) {
 			name = n;
 			money = m;
+			location = l;
 			diceRoll = dr;
 			inJail = ij;
 		}
@@ -42,6 +44,14 @@ public class Player
 		public void setInJail(boolean inJail)
 			{
 				this.inJail = inJail;
+			}
+		public int getLocation()
+			{
+				return location;
+			}
+		public void setLocation(int location)
+			{
+				this.location = location;
 			}
 		public static int rollDie() {
 			int x=0;

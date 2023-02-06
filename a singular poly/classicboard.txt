@@ -1,0 +1,40 @@
+misc Go 0 200
+property MediterraneanAvenue 1 60 Brown 2 0 50 10 false 50 250
+card CommunityChest 2 0 false
+property BalticAvenue 3 60 Brown 4 0 50 20 false 50 450
+misc IncomeTax 4 200
+railroad ReadingRailroad 5 25 1
+property OrientalAvenue 6 100 Blue 6 0 50 30 false 50 550
+card Chance 7 0 true
+property VermontAvenue 8 100 Blue 6 0 50 30 false 50 550
+property ConneticutAvenue 9 120 Blue 8 0 50 40 false 50 600
+misc Jail 10 0
+property St.CharlesPlace 11 140 Pink 10 0 100 50 false 100 750
+utility ElectricCompany 12 150 1
+property StatesAvenue 13 140 Pink 10 0 100 50 false 100 750
+property VirginiaAvenue 14 180 Pink 12 0 100 60 false 100 900
+railroad PennsylvaniaRailroad 15 25 1
+property St.JamesPlace 16 180 Orange 14 0 100 70 false 100 950
+card CommunityChest 17 0 false
+property StatesAvenue 18 180 Orange 14 0 100 70 false 100 950
+property VirginiaAvenue 19 200 Orange 16 0 100 80 false 100 1000
+misc FreeParking 20 0
+property KentuckyAvenue 21 220 Red 18 0 150 90 false 150 1050
+card CommunityChest 22 0 false
+property IndianaAvenue 23 220 Red 18 0 150 90 false 150 1050
+property IllinoisAvenue 24 240 Red 20 0 150 100 false 150 1100
+railroad B&ORailroad 25 25 1
+property AtlanticAvenue 26 260 Yellow 22 0 150 110 false 150 1150
+utility WaterWorks 27 150 1
+property VentnorAvenue 28 260 Yellow 22 0 150 110 false 150 1150
+property MarvinAvenue 29 280 Yellow 24 0 150 120 false 150 1200
+misc GotoJail 30 0
+property PacificAvenue 31 300 Green 26 0 200 130 false 200 1275
+property NorthCarolinaAvenue 32 300 Green 26 0 200 130 false 200 1275
+card CommunityChest 33 0 false
+property PennsylvaniaAvenue 34 280 Green 28 0 200 150 false 200 1400
+railroad ShortLine 35 25 1
+card Chance 36 0 false
+property ParkPlace 37 350 DarkBlue 35 0 200 175 false 200 1500
+misc LuxuryTax 38 100
+property Boardwalk 39 400 DarkBlue 50 0 200 200 false 200 2000
