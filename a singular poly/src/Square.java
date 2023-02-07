@@ -1,6 +1,7 @@
 
 public abstract class Square
 	{
+		public String type;
 		public String name;
 		public int location;
 		public int cost;
@@ -27,5 +28,13 @@ public abstract class Square
 		public void setCost(int cost)
 			{
 				this.cost = cost;
+			}
+		public String getType()
+			{
+				return type;
+			}
+		public void setType(String type)
+			{
+				this.type = type;
 			}
 	}

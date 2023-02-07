@@ -2,8 +2,9 @@
 public class Utility extends Square
 	{
 		public int numOfUtilities;
-		public Utility(String n, int l, int c, int ut)
+		public Utility(String t, String n, int l, int c, int ut)
 			{
+				type = t;
 				name = n;
 				location = l;
 				cost = c;

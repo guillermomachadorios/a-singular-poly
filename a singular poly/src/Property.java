@@ -9,7 +9,8 @@ public class Property extends Square
 		public boolean hotel;
 		public int hotelPrice;
 		public int hotelRent;
-		public Property(String n, int l, int c, String co, int r, int noh, int hsp, int hsr, boolean htl, int htp, int htr) {
+		public Property(String t, String n, int l, int c, String co, int r, int noh, int hsp, int hsr, boolean htl, int htp, int htr) {
+			type = t;
 			name = n;
 			location = l;
 			cost = c;

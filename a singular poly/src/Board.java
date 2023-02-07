@@ -21,6 +21,7 @@ public class Board
 			while(boardFile.hasNext()) {
 				String type = boardFile.next();
 				if(type.equals("property")) {
+					String t = "property";
 					String n = boardFile.next();
 					int l = boardFile.nextInt();
 					int c = boardFile.nextInt();
@@ -32,30 +33,34 @@ public class Board
 					boolean htl = boardFile.nextBoolean();
 					int htp = boardFile.nextInt();
 					int htr = boardFile.nextInt();
-					board.add( new Property(n, l, c, co, r, noh, hsp, hsr, htl, htp, htr));
+					board.add( new Property(t, n, l, c, co, r, noh, hsp, hsr, htl, htp, htr));
 				} else if (type.equals("misc")) {
+					String t = "misc";
 					String n = boardFile.next();
 					int l = boardFile.nextInt();
 					int c = boardFile.nextInt();
-					board.add( new Miscellaneous(n, l, c));
+					board.add( new Miscellaneous(t, n, l, c));
 				} else if (type.equals("card")) {
+					String t = "card";
 					String n = boardFile.next();
 					int l = boardFile.nextInt();
 					int c = boardFile.nextInt();
 					boolean ic = boardFile.nextBoolean();
-					board.add( new Card(n, l, c, ic));
+					board.add( new Card(t, n, l, c, ic));
 				} else if (type.equals("railroad")) {
+					String t = "railroad";
 					String n = boardFile.next();
 					int l = boardFile.nextInt();
 					int c = boardFile.nextInt();
 					int rr = boardFile.nextInt();
-					board.add( new Railroad(n, l, c, rr));
+					board.add( new Railroad(t, n, l, c, rr));
 				} else if (type.equals("utility")) {
+					String t = "utility";
 					String n = boardFile.next();
 					int l = boardFile.nextInt();
 					int c = boardFile.nextInt();
 					int ut = boardFile.nextInt();
-					board.add( new Railroad(n, l, c, ut));
+					board.add( new Railroad(t, n, l, c, ut));
 				}
 			}
 		}
