@@ -9,15 +9,20 @@ public class Board
 		public static void pickBoard() throws IOException{
 			Scanner userIntInput = new Scanner(System.in);
 			Scanner boardFile = null;
-			System.out.println("What version of Monopoly would you like to play?");
-			System.out.println("(1) Classic Monopoly (2) ???????");
-			int x = userIntInput.nextInt();
-			if(x==1) {
-				boardFile = new Scanner(new File("classicboard.txt"));
+			while(true) {
+				System.out.println("What version of Monopoly would you like to play?");
+				System.out.println("(1) Classic Monopoly (2) HAGSopoly");
+				int x = userIntInput.nextInt();
+				if(x==1) {
+					boardFile = new Scanner(new File("classicboard.txt"));
+					break;
+				} else if(x==2) {
+					boardFile = new Scanner(new File("HAGSopoly.txt"));
+					break;
+				} else {
+					System.out.println("That's not an available option.");
+				}
 			}
-//			} else if() {
-//				
-//			}
 			while(boardFile.hasNext()) {
 				String type = boardFile.next();
 				if(type.equals("property")) {

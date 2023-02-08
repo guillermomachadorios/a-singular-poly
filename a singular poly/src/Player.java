@@ -1,4 +1,4 @@
-
+import java.util.ArrayList;
 public class Player
 	{
 		public String name;
@@ -6,12 +6,14 @@ public class Player
 		public int location;
 		public int diceRoll;
 		public boolean inJail;
-		public Player(String n, int m, int l, int dr, boolean ij) {
+		public ArrayList inventory;
+		public Player(String n, int m, int l, int dr, boolean ij, ArrayList in) {
 			name = n;
 			money = m;
 			location = l;
 			diceRoll = dr;
 			inJail = ij;
+			inventory = in;
 		}
 		public String getName()
 			{
@@ -52,6 +54,14 @@ public class Player
 		public void setLocation(int location)
 			{
 				this.location = location;
+			}
+		public ArrayList getInventory() 
+			{
+				return inventory;
+			}
+		public void setInventory(ArrayList inventory) 
+			{
+				this.inventory = inventory;
 			}
 		public static int rollDie() {
 			int x=0;

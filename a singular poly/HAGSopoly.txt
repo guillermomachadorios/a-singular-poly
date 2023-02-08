@@ -1,0 +1,40 @@
+misc Go 0 200
+property Sheol 1 60 Brown 2 0 50 10 false 50 250
+card EnderChest 2 0 false
+property Cathedral 3 60 Brown 4 0 50 20 false 50 450
+misc SteamSale 4 200
+railroad RegularRail 5 25 1
+property Mt.Celeste 6 100 Blue 6 0 50 30 false 50 550
+card CardoDraw 7 0 true
+property PizzaTower 8 100 Blue 6 0 50 30 false 50 550
+property SaltFactory 9 120 Blue 8 0 50 40 false 50 600
+misc StupidBabyJail 10 0
+property TrainingProgram 11 140 Pink 10 0 100 50 false 100 750
+utility Evan'sOilRig 12 150 1
+property ChristmasMiracle 13 140 Pink 10 0 100 50 false 100 750
+property Tomomo'sAbyss 14 180 Pink 12 0 100 60 false 100 900
+railroad PoweredRail 15 25 1
+property RadioActiveExclusionZone 16 180 Orange 14 0 100 70 false 100 950
+card EnderChest 17 0 false
+property AzureWeald 18 180 Orange 14 0 100 70 false 100 950
+property HollowBough 19 200 Orange 16 0 100 80 false 100 1000
+misc SnackBreak 20 0
+property 2Fort 21 220 Red 18 0 150 90 false 150 1050
+card EnderChest 22 0 false
+property Upward 23 220 Red 18 0 150 90 false 150 1050
+property Turbine 24 240 Red 20 0 150 100 false 150 1100
+railroad DetectorRail 25 25 1
+property AnorLondo 26 260 Yellow 22 0 150 110 false 150 1150
+utility BigPigPorkTimeFun 27 150 1
+property FirelinkShrine 28 260 Yellow 22 0 150 110 false 150 1150
+property Blighttown 29 280 Yellow 24 0 150 120 false 150 1200
+misc GotoJail 30 0
+property RiskyReels 31 300 Green 26 0 200 130 false 200 1275
+property LootLake 32 300 Green 26 0 200 130 false 200 1275
+card EnderChest 33 0 false
+property TiltedTower 34 280 Green 28 0 200 150 false 200 1400
+railroad ActivatorRail 35 25 1
+card CardoDraw 36 0 false
+property Summoner'sRift 37 350 DarkBlue 35 0 200 175 false 200 1500
+misc Plushie 38 100
+property HowlingAbyss 39 400 DarkBlue 50 0 200 200 false 200 2000
